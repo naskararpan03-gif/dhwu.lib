@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Central Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Central Library</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About the Library</a></li>
+      <li><a href="https://onos.gov.in" target="_blank">E-Resources</a></li>
+      <li><a href="http://your-opac-link" target="_blank">OPAC</a></li>
+      <li><a href="#">Utilities</a></li>
+      <li><a href="#">IR</a></li>
+      <li><a href="#">People</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="gallery">
+  <h2>Library Gallery</h2>
+
+  <img src="library1.jpg" onclick="openPopup(this.src)">
+  <img src="dhwulibrary.jpg" onclick="openPopup(this.src)">
+  <img src="centrallibrary.jpg" onclick="openPopup(this.src)">
+  <img src="slide3.jpg" onclick="openPopup(this.src)">
+</section>
+
+<!-- Popup -->
+<div id="popup" class="popup" onclick="closePopup()">
+  <img id="popup-img">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
